@@ -21,7 +21,8 @@ RDP failed with error 0x704 because the network security group only allowed my o
 ## 3. Install the roles
 Installed Active Directory Domain Services, DNS and File and Storage Services using Server Manager.
 
-![Server Manager showing roles](images/01-server-manager-roles.png)
+<img width="1418" height="832" alt="Screenshot 2026-10-28 at 05 30 39" src="https://github.com/user-attachments/assets/8403ae01-f5f7-4409-8ea6-f63e0925545d" />
+
 
 ## 4. Promote to a domain controller
 Promoted the server with a new forest, `lab.local`, and confirmed it with PowerShell:
