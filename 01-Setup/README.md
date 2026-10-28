@@ -15,7 +15,8 @@ Built a Windows Server VM in Azure and turned it into an Active Directory domain
 ## 2. Allow secure remote access
 RDP failed with error 0x704 because the network security group only allowed my old IP. I updated the inbound rule for port 3389 to my current IP (/32) instead of opening it to the internet. Full details in the troubleshooting log.
 
-![NSG inbound rules](images/01-nsg-rules.png)
+<img width="1415" height="737" alt="Screenshot 2026-10-28 at 05 16 14" src="https://github.com/user-attachments/assets/53153659-ebfa-4454-9d42-0678987b3fc8" />
+
 
 ## 3. Install the roles
 Installed Active Directory Domain Services, DNS and File and Storage Services using Server Manager.
