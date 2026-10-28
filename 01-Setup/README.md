@@ -1,5 +1,3 @@
-# Azure-Active-Directory-Helpdesk-Lab-Project
-
 # 01 - Setup: Domain controller in Azure
 
 Built a Windows Server VM in Azure and turned it into an Active Directory domain controller for a practice helpdesk environment.
