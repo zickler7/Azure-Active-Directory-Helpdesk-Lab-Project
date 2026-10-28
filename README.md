@@ -9,7 +9,8 @@ Built a Windows Server VM in Azure and turned it into an Active Directory domain
 - Deployed a Windows Server VM named `dc01` (Standard D2als v6)
 - Connected with Remote Desktop from a MacBook
 
-![VM overview in Azure](images/01-vm-overview.png)
+<img width="1436" height="757" alt="Screenshot 2026-10-28 at 04 39 40" src="https://github.com/user-attachments/assets/377c778c-bbe8-47c4-be01-af0433259955" />
+
 
 ## 2. Allow secure remote access
 RDP failed with error 0x704 because the network security group only allowed my old IP. I updated the inbound rule for port 3389 to my current IP (/32) instead of opening it to the internet. Full details in the troubleshooting log.
